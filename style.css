@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+   
+    height: 88vh;
+    background-image:linear-gradient(#FFB800,#03BCF6);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 400px;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+form img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin:0 auto;
+}
+form h1{
+    text-align: center;
+}
+form input{
+    
+    height: 30px;
+    outline: none;
+}
+form label{
+    font-size: 23px;
+    margin-bottom: -25px;
+}
+form input[type="text"]{
+    padding-left: 100px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+form input[type="email"]{
+    padding-left: 62px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+form input[type="text"]:focus{
+    
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+form input[type="password"]:focus{
+    
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+form input[type="email"]:focus{
+    
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+form input[type="password"]{
+    padding-left: 95px;
+    font-size: 20px;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+form input[type="submit"]{
+   cursor: pointer;
+   color: white;
+   font-size: 20px;
+   height: 40px;
+   border:none;
+   background-color:#03BCF6;
+   transition: .5s;
+}
+form input[type="submit"]:hover{
+    background-color:#FFB800;
+}
+.options-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.option{
+    margin-top: 10px;
+    flex-basis: 1;
+}
+
+.option a{
+    color: white;
+}
+::placeholder { 
+    color: rgb(255, 255, 255);
+    opacity: 0.7; 
+  }
+  
+  :-ms-input-placeholder {
+    color: rgb(255, 255, 255);
+  }
+  
+  ::-ms-input-placeholder { 
+    color: rgb(255, 255, 255);
+  }
